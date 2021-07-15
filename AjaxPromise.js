@@ -50,7 +50,7 @@ makePromiseCall("DELETE", deleteURL, false)
 
                                                 
 const postURL = "http://127.0.0.1:3000/employees";
-const emplData = {"name": "Harry", "salary": "5000"};
+const emplData = {"name": "Harry", "salary": "6000"};
  makePromiseCall("POST", postURL, true, emplData)
     .then(responseText => {
     console.log("User Added: "+responseText)
